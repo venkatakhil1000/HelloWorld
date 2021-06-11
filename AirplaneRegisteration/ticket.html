@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+  body{
+    background: url("airplane.jpg");
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+  }
+  
+  li {
+    float: left;
+  }
+  .submit{
+    background-color: #e6b42c;
+    border: 1px solid#e6b42c;
+    font-size: 14px;
+    padding: 19px;
+    border-radius: 25px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+
+  
+li a:hover {
+    background-color: #111;
+  }
+</style>
+</body>
+</html>
+
+<ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="#Live Details">About us</a></li>
+  <li><a href="#about">Pricing</a></li>
+</ul>
+
+
+<Html>  
+<head>   
+<title>  
+ AIR TICKET RESERVATION SYSTEM 
+</title>  
+</head>  
+<body bgcolor="lightyellow">  
+<b><u><h1><center>AIR TICKET RESERVATION SYSTEM </center></h1></b></u>
+<form>  
+  
+FIRST NAME:   
+<input type="text" name="firstname" size="15"/> <br> 
+<br> 
+MIDDLE NAME:
+<input type="text" name="middlename" size="15"/> <br> 
+<br>
+LAST NAME:  
+<input type="text" name="lastname" size="15"/> <br>  
+  <br>
+Gender :  
+
+  <input type="radio" name="maleorfemale" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="maleorfemale" id="female">
+    <label for="female">female</label><br>  
+<br>  
+
+<tr>
+<td>From</td>
+<td><select Name="From">
+<option value="-1" selected>select..</option>
+<option value="AP">AP</option>
+<option value="TS">TS</option>
+<option value="UK">UK</option>
+</select></td>
+</tr>
+<br>
+<br>
+
+<tr>
+<td>To</td>
+<td><select Name="To">
+<option value="-1" selected>select..</option>
+<option value="KNKA">KNKA</option>
+<option value="TN">TN</option>
+<option value="KER">KER</option>
+</select></td>
+</tr>
+<br>
+<br>
+
+
+
+
+
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>   
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br> 
+
+ 
+
+<input type="button" value="Submit" class="submit"/>  
+
+</form>  
+</body>  
+</html>
